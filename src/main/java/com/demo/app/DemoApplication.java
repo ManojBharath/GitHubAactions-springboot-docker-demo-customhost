@@ -1,4 +1,4 @@
-package com.demo.springbootdockerdemo;
+package com.demo.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,6 +14,6 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String home() {
-        return "Welcome to DevOps CI/CD with Self Hosted Runner!";
+        return "Hello Manoj - CI/CD with Self Hosted Runner íº€";
     }
 }
